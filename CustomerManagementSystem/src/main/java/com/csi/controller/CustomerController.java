@@ -47,7 +47,8 @@ public class CustomerController extends HttpServlet {
 		 customerServiceInterface.signUp(customer);
 		 
 		 RequestDispatcher requestDispatcher=request.getRequestDispatcher("showCustData.jsp");
-		 requestDispatcher.forward(request, response);		 
+		 requestDispatcher.forward(request, response);	
+system	 
 	
 	
 	}
